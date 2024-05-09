@@ -8,6 +8,7 @@ export const Home = () => {
 
   const users=useSelector((state)=>state.users);
   console.log(users);
+  console.log("hello world");
 
   const dispatch=useDispatch();
 
